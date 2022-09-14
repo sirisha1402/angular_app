@@ -11,7 +11,7 @@ export class NavComponent implements OnInit {
   //STRING INTERPOLATION
   title = 'amazon';
   //PROPERTY BINDING
-  public logo="https://pngimg.com/uploads/amazon/amazon_PNG5.png";
+  public logo="https://www.bing.com/th?id=OIP.QDgivdKPRSgdQhTml5g8ngHaE9&w=305&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2";
   //EVENT BINDING
   onSearch()
   {

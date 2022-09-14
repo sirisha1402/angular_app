@@ -1,9 +1,3 @@
-<!--TWO WAY BINDING-->
-          <!--[(ngModel)]-->
-          <!--FormsModule in the app.module.ts-->
-          <!-- <input type="text" [(ngModel)]="name"><span>Welcome {{name}}</span> -->
-
-<!--IMAGE CAROUSEL-->
 <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
@@ -13,24 +7,24 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active" data-bs-interval="10000">
-        <img src="https://3.bp.blogspot.com/-0KmwLussiFQ/Urglf2WVqWI/AAAAAAAAAXY/9G4MNAST2tw/s1600/laptops.jpeg" class="d-block w-100" alt="CSS">
+        <img src="https://th.bing.com/th/id/OIP.4_4iqN2Ne9RKL7hA3JAEFgHaCf?w=344&h=117&c=7&r=0&o=5&dpr=1.5&pid=1.7" class="d-block w-100" alt="CSS">
         <div class="carousel-caption d-none d-md-block">
-          <h5>DELL</h5>
-          <p>LAPTOPS</p>
+          <h4>SONY</h4>
+          <p>Television</p>
         </div>
       </div>
       <div class="carousel-item" data-bs-interval="2000">
-        <img src="https://i.pinimg.com/originals/d2/3d/e1/d23de1ec140496144f4aa2b4a90c3030.jpg" class="d-block w-100" alt="JS">
+        <img src="https://supermommyreviews.com/wp-content/uploads/2019/08/kids-toys.jpg" class="d-block w-100" alt="JS">
         <div class="carousel-caption d-none d-md-block">
-          <h5>KIDS</h5>
+          <h4>KIDS</h4>
           <p>TOYS</p>
         </div>
     </div>
     <div class="carousel-item">
-      <img src="https://fthmb.tqn.com/--g_FXSTs_FEdjuG27FYKhR2-r4=/2000x1500/filters:fill(auto,1)/appliancesalexeydudoladovGettyImages-171589331-57b37c3c5f9b58b5c2cb819c.jpg" class="d-block w-100" alt="JQ">
+      <img src="https://th.bing.com/th/id/OIP.heJxv6FNcwgVXngYor-lCgHaE9?w=259&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" class="d-block w-100" alt="JQ">
       <div class="carousel-caption d-none d-md-block">
-        <h5>HOME APPLIANCES</h5>
-        <p>WASHING MACHINE,REFRIGERATOR,DISH WASHER</p>
+        <h5>DELL</h5>
+        <p>Laptop</p>
       </div>
     </div>
   </div>
@@ -45,3 +39,58 @@
 </div>
 <br>
 <br>
+<!--*ngFor to retrieve the contents from products-->
+<!--*ngIf in the <ul> for toggle effects to hide/show contents-->
+<ul *ngIf="isVisible">
+  <li *ngFor="let product of products" style="color:blueviolet">
+    {{product.productname}}
+  </li>
+</ul>
+<!--event to hide product dectails-->
+<button (click)="hide_products()">Hide the product details
+</button>
+<!--*ngSwitch-->
+<ul [ngSwitch]="product">
+  <li *ngSwitchCase="'Dress'">Dress</li>
+  <li *ngSwitchCase="'Headphone'">Headphone</li>
+  <li *ngSwitchCase="'Laptop'">Laptop</li>
+  <li *ngSwitchCase="'Footwear'">Footwear</li>
+  <li *ngSwitchDefault>Not Found</li>
+</ul>
+
+<!--style binding-->
+<p [style.color]="'red'" [style.font-size.px]="'24'" [style.background-color]="'blue'">Red color</p>
+<p [style.background-color]="'aqua'">Red color</p>
+<p [style.font-size.px]="'24'">Red color</p>
+<p class="stylebonding1">class Binding</p>
+<hr>
+<!--ternary operator for style binding-->
+<button [style.color]="errorcolor=='red'?'red':'blue'">STYLE BINDING USING TERNARY</button>
+<hr>
+<ul *ngFor="let pdetails of ProductDetails" [ngSwitch]="pdetails.color">
+  <li *ngSwitchCase="'green'" class="green">
+    {{pdetails.pid}} - {{pdetails.pname}} - {{pdetails.status}}
+  </li>
+  <li *ngSwitchCase="'red'" class="red">
+    {{pdetails.pid}} - {{pdetails.pname}} - {{pdetails.status}}
+  </li>
+  <li *ngSwitchDefault class="yellow">
+    {{pdetails.pid}} - {{pdetails.pname}} - {{pdetails.status}}
+  </li>
+</ul>
+<hr>
+<!--bootstrap-->
+<ul *ngFor="let pdetails of ProductDetails" [ngSwitch]="pdetails.color">
+  <li *ngSwitchCase="'Active'" class="text-success">
+    {{pdetails.pid}} - {{pdetails.pname}} - {{pdetails.status}}
+  </li>
+  <li *ngSwitchCase="'Inactive'" class="text-danger">
+    {{pdetails.pid}} - {{pdetails.pname}} - {{pdetails.status}}
+  </li>
+  <li *ngSwitchDefault class="text-waring">
+    {{pdetails.pid}} - {{pdetails.pname}} - {{pdetails.status}}
+  </li>
+</ul>
+<!--<p [style.color]="getColor()">Hello</p>-->
+
+
