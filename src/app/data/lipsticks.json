@@ -1,0 +1,46 @@
+[{
+    "pid":1,
+    "pname":"Maybelline",
+    "pdescription":"Glossy Lips",
+    "price":500,
+    "img":"https://i.pinimg.com/originals/52/ca/a1/52caa15e361d68f3e1bf0609822086bf.jpg"
+},
+{
+    "pid":2,
+    "pname":"Loreal",
+    "pdescription":"Pure garnet",
+    "price":600,
+    "img":"https://blog.lifestylestores.com/wp-content/uploads/2021/01/image-24.png"
+},
+{
+    "pid":3,
+    "pname":"WNW",
+    "pdescription":"Glossy Lips",
+    "price":25000,
+    "img":"https://cdn11.bigcommerce.com/s-ilgxsy4t82/images/stencil/960w/products/67891/183637/51Nqh5b32FL__03210.1663066490.jpg?c=1"
+},
+{
+    "pid":4,
+    "pname":"Sugar",
+    "pdescription":"Glossy Lips",
+    "price":500,
+    "img":"https://n2.sdlcdn.com/imgs/i/n/g/Sugar-Cosmetics-Lipstick-Red-4-SDL346471439-1-971f1.png"
+},
+{
+    "pid":5,
+    "pname":"Lakme",
+    "pdescription":"Enrich matte",
+    "price":300,
+    "img":"https://n2.sdlcdn.com/imgs/g/0/4/LAKME-Enrich-Matte-Lipstick-PM15-SDL438343704-1-161ca.jpg"
+},
+{
+    "pid":6,
+    "pname":"Plum",
+    "pdescription":"Glossy Lips",
+    "price":500,
+    "img":"https://www.revolutionbeauty.com/dw/image/v2/BCZJ_PRD/on/demandware.static/-/Sites-revbe-master-catalog/default/dw6a3ca8dd/images/hi-res/1134248_3.jpg?sw=800&sh=800&sm=fit"
+}
+
+]
+
+

@@ -1,0 +1,45 @@
+[{
+    "pid":1,
+    "pname":"COACH",
+    "pdescription":"Block leather",
+    "price":28000,
+    "img":"https://m.media-amazon.com/images/I/71dULKklwjL._AC_UY695_.jpg"
+},
+{
+    "pid":2,
+    "pname":"Hermés",
+    "pdescription":"leather goods",
+    "price":50000,
+    "img":"https://www.designerbagsblog.com/wp-content/uploads/2021/12/Screen-Shot-2021-12-20-at-14.46.37-9042267.png?ezimgfmt=ng:webp/ngcb1"
+},
+{
+    "pid":3,
+    "pname":"Chanel",
+    "pdescription":"calfskin cloth",
+    "price":45000,
+    "img":"https:https://www.designerbagsblog.com/wp-content/uploads/2021/12/Screen-Shot-2021-12-20-at-18.46.59-1702954.png?ezimgfmt=ng:webp/ngcb1"
+},
+{
+    "pid":4,
+    "pname":"Dior",
+    "pdescription":"synonymous with luxury, quality and elegance",
+    "price":20000,
+    "img":"https://www.designerbagsblog.com/wp-content/uploads/2021/12/Screen-Shot-2021-12-22-at-11.51.43-5719313.png?ezimgfmt=ng:webp/ngcb1"
+},
+{
+    "pid":5,
+    "pname":"Louis Vuitton",
+    "pdescription":"synonymous with elegance and high quality",
+    "price":25000,
+    "img":"https://www.designerbagsblog.com/wp-content/uploads/2021/12/Screen-Shot-2021-12-22-at-12.11.45-7856140.png?ezimgfmt=ng:webp/ngcb1"
+},
+{
+    "pid":6,
+    "pname":"Prada",
+    "pdescription":"popular among celebrities",
+    "price":700000,
+    "img":"https://www.designerbagsblog.com/wp-content/uploads/2021/12/Screen-Shot-2021-12-22-at-13.15.14-7236100.png?ezimgfmt=ng:webp/ngcb1"
+}
+
+]
+

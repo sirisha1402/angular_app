@@ -1,1 +1,19 @@
-<h1>WELCOME TO CARDS:)</h1>
+<h2 style="margin-left:550px;"><b>Amazon deals</b></h2>
+<br>
+<div class="row row-cols-1 row-cols-md-3 g-4" style="margin-left: 120px; margin-right: 50px;  width: 1000px; ">
+    <div class="col" *ngFor="let prod of product" [ngSwitch]="prod.Status">
+        <div class="card h-100">
+            <img src="{{prod.img}}" class="card-img-top" alt="..." height="320px">
+            <div class="card-body" >
+                <h5>{{prod.pname}}</h5>
+                <p style=padding-left:5px;>{{product.pid}}</p>
+                    <p [style.color]="'blue'" [style.font-weight.px]="5" [style.padding-left.px]="'05'">Description:{{prod.pdescription}}</p>
+                    <p [style.padding-left.px]="'05'" *ngSwitchCase="'In Stock'" class="text-success">Status:{{prod.Status}}</p>
+                    <p [style.padding-left.px]="'05'" *ngSwitchCase="'Out of Stock'" class="text-danger">Status:{{prod.Status}}</p>
+                    Price: {{prod.price | currency:'INR'}}
+                    <br>
+            
+            </div>
+        </div>
+    </div>
+</div>    

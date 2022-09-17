@@ -1,18 +1,17 @@
 import { Component, OnInit } from '@angular/core';
-import * as productDetails from '../data/product.json';
-
+import * as footwear from "../data/footwear.json";
 @Component({
-  selector: 'app-cards',
-  templateUrl: './cards.component.html',
-  styleUrls: ['./cards.component.css']
+  selector: 'app-footwear',
+  templateUrl: './footwear.component.html',
+  styleUrls: ['./footwear.component.css']
 })
-export class CardsComponent implements OnInit {
+export class FootwearComponent implements OnInit {
 
   constructor() { }
 
   ngOnInit(): void {
-  } 
-  product:any = (productDetails as any).default;
+  }
+  shoes:any=(footwear as any).default;
   productDetail=false;
   //Event to perform the toggle effect
   showproductDetailsToggle()
@@ -30,9 +29,6 @@ export class CardsComponent implements OnInit {
     }
     return content;
   }
-
 }
 
-  
-  
 

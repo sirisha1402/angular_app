@@ -1,0 +1,75 @@
+[
+    {
+      "pid":1,
+      "pname":"Product:Shoes",
+      "pdescription":"Smashing Steel Toe Work Safety Shoes",
+      "price":4600,
+      "Status":"In Stock",
+      "img":"https://th.bing.com/th/id/OIP.LjLPmahZKkzKz6hH5zQW-gHaHa?w=189&h=189&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+  },
+  {
+    "pid":2,
+    "pname":"Product:Handbag",
+    "pdescription":"leather goods",
+    "price":50000,
+    "Status":"Out of Stock",
+    "img":"https://www.designerbagsblog.com/wp-content/uploads/2021/12/Screen-Shot-2021-12-20-at-14.46.37-9042267.png?ezimgfmt=ng:webp/ngcb1"
+},
+{
+  "pid":3,
+  "pname":"Product:Lipstick",
+  "pdescription":"Glossy Lips",
+  "price":25000,
+  "Status":"In Stock",
+  "img":"https://cdn11.bigcommerce.com/s-ilgxsy4t82/images/stencil/960w/products/67891/183637/51Nqh5b32FL__03210.1663066490.jpg?c=1"
+},
+  {
+      "pid":4,
+      "pname":"Product:Nailpolish",
+      "pdescription":"Matte colours",
+      "price":100,
+      "Status":"Out of Stock",
+      "img":"https://th.bing.com/th/id/OIP.sRLsdl3wr9r-fx8-R6aksAHaHa?pid=ImgDet&rs=1"
+  },
+  {
+      "pid":5,
+      "pname":"Product:Watch",
+      "pdescription":"Watch for women",
+      "price":2000,
+      "Status":"In Stock",
+      "img":"https://i5.walmartimages.com/asr/0426230b-9044-4449-9a04-7ab6c8ba69f9.0ebc19459e0ce238b453021be7bca8a9.jpeg"
+  },
+  {
+      "pid":6,
+      "pname":"Product:Sunglasses",
+      "pdescription":"Snap glasses",
+      "price":3000,
+      "Status":"Out of Stock",
+      "img":"https://us03-imgcdn.ymcart.com/45474/2019/06/17/3/1/3137991c7b15b13c.jpg?x-oss-process=image/quality,Q_90/auto-orient,1/resize,m_lfit,w_1500,h_1500"
+  },
+  {
+      "pid":7,
+      "pname":"Water bottle",
+      "pdescription":"Copper water bttle",
+      "price":1500,
+      "Status":"In Stock",
+      "img":"https://cdn.shopify.com/s/files/1/0196/9428/products/4BottlesBoard_1024x1024.jpg?v=1578515756"
+  },
+  {
+      "pid":8,
+      "pname":"Product:Pen holder",
+      "pdescription":"Desktop pen holders",
+      "price":450,
+      "Status":"Out of Stock",
+      "img":"https://th.bing.com/th/id/OIP.Nap1lMeRaPN6djNJWEbKQQD6D6?pid=ImgDet&rs=1"
+  },
+  {
+      "pid":9,
+      "pname":"Product:NoteBook",
+      "pdescription":"Diary notebook",
+      "price":35000,
+      "Status":"In Stock",
+      "img":"https://64.media.tumblr.com/40a1f6e0de4eab49fcfee83589edbfab/tumblr_ml9ir9ZMde1s6plago1_400.jpg"
+  }
+
+  ]

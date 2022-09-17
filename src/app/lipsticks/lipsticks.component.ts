@@ -1,25 +1,24 @@
 import { Component, OnInit } from '@angular/core';
-import * as productDetails from '../data/product.json';
-
+import * as lipstick from "../data/lipsticks.json";
 @Component({
-  selector: 'app-cards',
-  templateUrl: './cards.component.html',
-  styleUrls: ['./cards.component.css']
+  selector: 'app-lipsticks',
+  templateUrl: './lipsticks.component.html',
+  styleUrls: ['./lipsticks.component.css']
 })
-export class CardsComponent implements OnInit {
+export class LipsticksComponent implements OnInit {
 
   constructor() { }
 
   ngOnInit(): void {
-  } 
-  product:any = (productDetails as any).default;
+  }
+  glossy:any=(lipstick as any).default;
+
   productDetail=false;
   //Event to perform the toggle effect
   showproductDetailsToggle()
   {
     this.productDetail=!this.productDetail;
   }
-  
   toggleContent(){
     var content='';
     if(this.productDetail){
@@ -30,9 +29,6 @@ export class CardsComponent implements OnInit {
     }
     return content;
   }
-
 }
 
-  
-  
 

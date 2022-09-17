@@ -1,26 +1,25 @@
 import { Component, OnInit } from '@angular/core';
-import * as productDetails from '../data/product.json';
-
+import * as Bags from "../data/hand-bags.json";
 @Component({
-  selector: 'app-cards',
-  templateUrl: './cards.component.html',
-  styleUrls: ['./cards.component.css']
+  selector: 'app-hand-bags',
+  templateUrl: './hand-bags.component.html',
+  styleUrls: ['./hand-bags.component.css']
 })
-export class CardsComponent implements OnInit {
+export class HandBagsComponent implements OnInit {
 
   constructor() { }
 
   ngOnInit(): void {
-  } 
-  product:any = (productDetails as any).default;
+  }
+  handbags:any=(Bags as any).default;
+  //Property for toggle effect
   productDetail=false;
   //Event to perform the toggle effect
   showproductDetailsToggle()
   {
     this.productDetail=!this.productDetail;
   }
-  
-  toggleContent(){
+    toggleContent(){
     var content='';
     if(this.productDetail){
       content='fa-solid fa-arrow-up';
@@ -30,9 +29,6 @@ export class CardsComponent implements OnInit {
     }
     return content;
   }
-
 }
 
-  
-  
 

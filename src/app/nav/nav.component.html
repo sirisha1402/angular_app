@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light">
     <div class="container-fluid">
       <!--STRING INTERPOLATION-->
       <!--PROPERTY BINDING IN img tag-->
@@ -22,10 +22,10 @@
               Dropdown
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" routerLink="lipsticks">Lipstick</a></li>
+              <li><a class="dropdown-item" routerLink="handbags">Handbags</a></li>
+              <!--<li><hr class="dropdown-divider"></li>-->
+              <li><a class="dropdown-item" routerLink="footwear">Footwear</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -38,10 +38,7 @@
           <button class="btn btn-outline-success" type="submit" (click)="search_product(productname.value);productname.value=''" style="border-radius:10px;">Search</button>
           <!--Access the Search Component-->
           <br>
-          <!--Laptop will get assigned to the property product in search component-->
-          <!--@Input(product) in search component-->
           <!--PROPERTY BINDING-->
-          <!--@Input(product) in search component is going to receive the value from productentered property from nav component-->
           &nbsp;&nbsp;&nbsp;
           <app-search [product]="productentered"></app-search>
         </form>

@@ -15,3 +15,8 @@ img{
     border-radius:10px;
 
 }
+marquee{
+    text-shadow:2px 3px 3px palevioletred;
+    color:rgb(4, 4, 4);
+    font-size: 28px;
+}
