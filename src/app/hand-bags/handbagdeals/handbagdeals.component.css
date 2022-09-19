@@ -1,19 +1,14 @@
-marquee{
-    text-shadow:2px 3px 3px black;
-    color: red;
-    font-size: 28px;
-}
 img{
-    height:150px;
-    width:150px;
+    height:50px;
+    width:50px;
     margin-left:20px;
     margin-top:10px;
     margin-bottom:10px;
     border-radius:10px;
 }
 .prodimg{
-    height:200px;
-    width:1000px;
+    height:100px;
+    width:100px;
     margin-left:40px;
     margin-top:10px;
     margin-bottom:10px;

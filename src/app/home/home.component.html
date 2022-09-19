@@ -41,31 +41,31 @@
 <br>
 <!--*ngFor to retrieve the contents from products-->
 <!--*ngIf in the <ul> for toggle effects to hide/show contents-->
-<ul *ngIf="isVisible">
+<!--<ul *ngIf="isVisible">
   <li *ngFor="let product of products" style="color:blueviolet">
     {{product.productname}}
   </li>
-</ul>
+</ul>-->
 <!--event to hide product dectails-->
-<button (click)="hide_products()">Hide the product details
-</button>
+<!--<button (click)="hide_products()">Hide the product details
+</button>-->
 <!--*ngSwitch-->
-<ul [ngSwitch]="product">
+<!--<ul [ngSwitch]="product">
   <li *ngSwitchCase="'Dress'">Dress</li>
   <li *ngSwitchCase="'Headphone'">Headphone</li>
   <li *ngSwitchCase="'Laptop'">Laptop</li>
   <li *ngSwitchCase="'Footwear'">Footwear</li>
   <li *ngSwitchDefault>Not Found</li>
-</ul>
+</ul>-->
 
 <!--style binding-->
-<p [style.color]="'red'" [style.font-size.px]="'24'" [style.background-color]="'blue'">Red color</p>
+<!--<p [style.color]="'red'" [style.font-size.px]="'24'" [style.background-color]="'blue'">Red color</p>
 <p [style.background-color]="'aqua'">Red color</p>
 <p [style.font-size.px]="'24'">Red color</p>
 <p class="stylebonding1">class Binding</p>
-<hr>
+<hr>-->
 <!--ternary operator for style binding-->
-<button [style.color]="errorcolor=='red'?'red':'blue'">STYLE BINDING USING TERNARY</button>
+<!--<button [style.color]="errorcolor=='red'?'red':'blue'">STYLE BINDING USING TERNARY</button>
 <hr>
 <ul *ngFor="let pdetails of ProductDetails" [ngSwitch]="pdetails.color">
   <li *ngSwitchCase="'green'" class="green">
@@ -78,9 +78,9 @@
     {{pdetails.pid}} - {{pdetails.pname}} - {{pdetails.status}}
   </li>
 </ul>
-<hr>
+<hr>-->
 <!--bootstrap-->
-<ul *ngFor="let pdetails of ProductDetails" [ngSwitch]="pdetails.color">
+<!--<ul *ngFor="let pdetails of ProductDetails" [ngSwitch]="pdetails.color">
   <li *ngSwitchCase="'Active'" class="text-success">
     {{pdetails.pid}} - {{pdetails.pname}} - {{pdetails.status}}
   </li>
@@ -90,8 +90,7 @@
   <li *ngSwitchDefault class="text-waring">
     {{pdetails.pid}} - {{pdetails.pname}} - {{pdetails.status}}
   </li>
-</ul>
+</ul>-->
 <!--<p [style.color]="getColor()">Hello</p>-->
-
 
 

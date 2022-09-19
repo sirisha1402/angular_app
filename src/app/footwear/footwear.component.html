@@ -1,6 +1,7 @@
-<marquee>Deals in amazon</marquee>
+<marquee> Footwear Deals in amazon</marquee>
 <div *ngFor="let f of shoes" style="border:none;">
     <div class="row">
+        
        <!-- <div class="col-lg-3">
             propertybinding
             <img [src]="f.img" class="prodimg">
@@ -31,7 +32,7 @@
                             <br>
                             Price: {{f.price | currency:'INR'}}
                             <br>
-                            
+                            <app-counter></app-counter>
                         </div>
                     </div>
                 </div>

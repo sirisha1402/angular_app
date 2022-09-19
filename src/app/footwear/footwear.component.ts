@@ -22,10 +22,10 @@ export class FootwearComponent implements OnInit {
   toggleContent(){
     var content='';
     if(this.productDetail){
-      content='fa-solid fa-arrow-up';
+      content='fa fa-plus';
     }
     else{
-      content='fa-solid fa-arrow-down';
+      content='fa fa-minus';
     }
     return content;
   }

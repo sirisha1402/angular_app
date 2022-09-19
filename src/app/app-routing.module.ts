@@ -6,7 +6,7 @@ import { CardsComponent } from './cards/cards.component';
 import { HandBagsComponent } from './hand-bags/hand-bags.component';
 import { LipsticksComponent } from './lipsticks/lipsticks.component';
 import { FootwearComponent } from './footwear/footwear.component';
-
+import { AllproductsComponent } from './allproducts/allproducts.component';
 
 //Configure the routing path for the above imported components
 const routes: Routes = [
@@ -15,6 +15,7 @@ const routes: Routes = [
   {path:'lipsticks',component:LipsticksComponent},
   {path:'footwear',component:FootwearComponent},
   {path:'handbags',component:HandBagsComponent},
+  {path: 'allproducts',component:AllproductsComponent}
   
 ];
 

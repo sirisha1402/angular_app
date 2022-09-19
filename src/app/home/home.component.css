@@ -17,3 +17,12 @@ img {
   .yellow{
     color: yellow;
   }
+  .blue{
+    color:blue;
+  }
+  .shadow{
+    text-shadow: 2px 2px 2px yellow;
+  }
+  .size{
+    font-size: 24px;
+  }

@@ -1,37 +1,15 @@
-<marquee>Deals in amazon</marquee>
-    <div *ngFor="let f of handbags" style="border:none;">
+<marquee>Handbags deals in amazon</marquee>
+<div style="margin-top: 30px;">
     <div class="row">
-        <div class="col col-lg-3">
-            <!--property-->
-            <img [src]="f.img" class="prodimg">
-        </div>
-        <!--2nd column-->
-        <div class="card col-lg-6" style="border:none;">
-            <div class="card-body col-lg-12">
-                <div class="row" style="margin-top:10px;border-style:solid;border-color:black;border-radius:15px;">
-                    <div class="col-lg-3">
-                        <!--propertybinding-->
-                        <img [src]="f.img">
-                    </div>
-                    <div class="col-lg-9" style="margin-top:20px;">
-                        <!--interpolationbinding-->
-                        <div>
-                            Product: {{f.pname | uppercase}}
-                            <span (click)="showproductDetailsToggle()" [ngClass]="toggleContent()"></span>
-                        </div>
-                        <hr>
-                        <div [hidden]="productDetail">
-                            Description: {{f.pdescription}}
-                            <br>
-                            Price: {{f.price | currency:'INR'}}
-                        </div>
-                    </div>
-                </div>
+        <div class="col-lg-3">
+            <app-allproducts></app-allproducts>
+            <app-allproducts></app-allproducts>
             </div>
+        <div class="card col-lg-6" style="border:none;margin-top: 30px;">
+            <app-handbagdeals></app-handbagdeals>
         </div>
-        <div class="col col-lg-3">
-            <!--propertybinding-->
-            <img [src]="f.img" class="prodimg">
+       <div class="col-lg-3">
+            <app-advertisement></app-advertisement>
         </div>
     </div>
 </div>
