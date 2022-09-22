@@ -1,0 +1,116 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "pname": "Pumpa",
+      "pdescription": "Smashing Steel Toe Work Safety Shoes",
+      "price": "5000",
+      "img": "https://th.bing.com/th/id/OIP.LjLPmahZKkzKz6hH5zQW-gHaHa?w=189&h=189&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+    },
+    {
+      "id": 2,
+      "pname": "Nike",
+      "pdescription": "Free Run",
+      "price": 5000,
+      "img": "https://th.bing.com/th/id/OIP.CbPrrh5G7coTY0rznZ5JqgHaHa?pid=ImgDet&rs=1"
+    },
+    {
+      "id": 3,
+      "pname": "adidas",
+      "pdescription": "Sport shoes",
+      "price": 3000,
+      "img": "https://th.bing.com/th/id/OIP.ZffAEKyyIh54xe3JxZkGBQHaFj?pid=ImgDet&rs=1"
+    },
+    {
+      "id": 4,
+      "pname": "Reebok",
+      "pdescription": "Running shoes",
+      "price": 6000,
+      "img": "https://th.bing.com/th/id/OIP.PwoJ0qmqsrB2yJTtJdARCgHaHa?pid=ImgDet&w=474&h=474&rs=1"
+    },
+    {
+      "id": 5,
+      "pname": "Crocs",
+      "pdescription": "Casual wear",
+      "price": 3000,
+      "img": "https://th.bing.com/th/id/OIP.DOyQ-9aiXsU8hYbV68K9wQHaHa?pid=ImgDet&rs=1"
+    },
+    {
+      "id": 6,
+      "pname": "converse",
+      "pdescription": "Sneaker",
+      "price": 4000,
+      "img": "https://th.bing.com/th/id/OIP.BqoYuD22sQ3icon63OGYXAHaHa?pid=ImgDet&rs=1"
+    },
+    {
+      "id": 7,
+      "pname": "COACH",
+      "pdescription": "Block leather",
+      "price": 28000,
+      "img": "https://m.media-amazon.com/images/I/71dULKklwjL._AC_UY695_.jpg"
+    },
+    {
+      "id": 8,
+      "pname": "Hermés",
+      "pdescription": "leather goods",
+      "price": 50000,
+      "img": "https://www.designerbagsblog.com/wp-content/uploads/2021/12/Screen-Shot-2021-12-20-at-14.46.37-9042267.png?ezimgfmt=ng:webp/ngcb1"
+    },
+    {
+      "id": 9,
+      "pname": "Chanel",
+      "pdescription": "calfskin cloth",
+      "price": 45000,
+      "img": "https://www.designerbagsblog.com/wp-content/uploads/2021/12/Screen-Shot-2021-12-20-at-18.46.59-1702954.png?ezimgfmt=ng:webp/ngcb1"
+    },
+    {
+      "id": 10,
+      "pname": "Dior",
+      "pdescription": "synonymous with luxury, quality and elegance",
+      "price": 20000,
+      "img": "https://www.designerbagsblog.com/wp-content/uploads/2021/12/Screen-Shot-2021-12-22-at-11.51.43-5719313.png?ezimgfmt=ng:webp/ngcb1"
+    },
+    {
+      "id": 11,
+      "pname": "Louis Vuitton",
+      "pdescription": "synonymous with elegance and high quality",
+      "price": 25000,
+      "img": "https://www.designerbagsblog.com/wp-content/uploads/2021/12/Screen-Shot-2021-12-22-at-12.11.45-7856140.png?ezimgfmt=ng:webp/ngcb1"
+    },
+    {
+      "id": 12,
+      "pname": "Prada",
+      "pdescription": "popular among celebrities",
+      "price": 700000,
+      "img": "https://www.designerbagsblog.com/wp-content/uploads/2021/12/Screen-Shot-2021-12-22-at-13.15.14-7236100.png?ezimgfmt=ng:webp/ngcb1"
+    },
+    {
+      "id": 13,
+      "pname": "Maybelline",
+      "pdescription": "Glossy Lips",
+      "price": 500,
+      "img": "https://i.pinimg.com/originals/52/ca/a1/52caa15e361d68f3e1bf0609822086bf.jpg"
+    },
+    {
+      "id": 14,
+      "pname": "Loreal",
+      "pdescription": "Pure garnet",
+      "price": 600,
+      "img": "https://blog.lifestylestores.com/wp-content/uploads/2021/01/image-24.png"
+    },
+    {
+      "id": 15,
+      "pname": "WNW",
+      "pdescription": "Glossy Lips",
+      "price": 25000,
+      "img": "https://cdn11.bigcommerce.com/s-ilgxsy4t82/images/stencil/960w/products/67891/183637/51Nqh5b32FL__03210.1663066490.jpg?c=1"
+    },
+    {
+      "id": 16,
+      "pname": "Plant holder",
+      "pdescription": "Eco-friendly",
+      "price": "300",
+      "img": "https://i5.walmartimages.com/asr/968d7217-4354-471c-91d6-901630751fee_1.2d1b9a74286d8d87cbaab1a4fc04a212.jpeg"
+    }
+  ]
+}

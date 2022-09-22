@@ -1,18 +1,31 @@
 <h2 style="margin-left:550px;"><b>Amazon deals</b></h2>
 <br>
 <app-allproducts></app-allproducts>
-<div class="row row-cols-1 row-cols-md-3 g-4" style="margin-left: 120px; margin-right: 50px;  width: 1000px; ">
+<div class="row row-cols-1 row-cols-md-3 g-4" style="margin-left: 120px; margin-right: 50px;  width: 1000px;">
     <div class="col" *ngFor="let prod of product" [ngSwitch]="prod.Status">
+        
         <div class="card h-100">
-            <img src="{{prod.img}}" class="card-img-top" alt="..." height="320px">
+            
+            <img src="{{prod.img}}" class="card-img-top" alt="..." height="320px"><hr>
+            
             <div class="card-body" >
                 <h5>{{prod.pname}}</h5>
+                <span (click)="showproductDetailsToggle()" [ngClass]="toggleContent()"></span>
+            
+                
                 <p style=padding-left:5px;>{{product.pid}}</p>
-                    <p [style.color]="'blue'" [style.font-weight.px]="5" [style.padding-left.px]="'05'">Description:{{prod.pdescription}}</p>
-                    <p [style.padding-left.px]="'05'" *ngSwitchCase="'In Stock'" class="text-success">Status:{{prod.Status}}</p>
+                  <!-- <p [style.color]="'blue'" [style.font-weight.px]="5" [style.padding-left.px]="'05'">Description:{{prod.pdescription}}</p>-->
+                    <div [hidden]="productDetail">
+                        <b>DETAILS:</b>  {{prod.pdescription}}
+                        <br>
+                        <b>PRICE:</b>  {{prod.price| currency:'INR'}} 
+                        <br>
+                        <p [style.padding-left.px]="'05'" *ngSwitchCase="'In Stock'" class="text-success">Status:{{prod.Status}}</p>
                     <p [style.padding-left.px]="'05'" *ngSwitchCase="'Out of Stock'" class="text-danger">Status:{{prod.Status}}</p>
-                    Price: {{prod.price | currency:'INR'}}
+                    
                     <br>
+                    </div>
+                    
                     <app-counter></app-counter>
             </div>
         </div>

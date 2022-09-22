@@ -30,11 +30,16 @@ decrement(){
 }
 
 increment(){
-  this.counterValue++;
+  if(this.counterValue==10){
+    this.PostValue();
+  }
+  else{
+    this.counterValue++;
   this.countLessThenOne=true;
   this.PostValue();
+  }
+  
 }
-
   constructor() { }
 
   ngOnInit(): void {

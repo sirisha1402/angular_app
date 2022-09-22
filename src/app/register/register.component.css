@@ -1,0 +1,34 @@
+input {
+    width: 60%;
+    margin-left: 100px;
+}
+
+label {
+    margin-left: 100px;
+}
+
+form {
+    padding: 20px;
+    margin-left: 500px;
+    width: 40%;
+    border-style: inset;
+    border-radius: 10px;
+    border-color: red;
+    box-shadow: yellow;
+}
+
+form:hover {
+    color: yellow ;
+    background-color: black;
+    transform:scale(1.2);
+
+}
+
+button {
+    margin-left: 150px;
+}
+
+span {
+    width: 60%;
+    margin-left: 100px;
+}
