@@ -4,6 +4,7 @@ input {
 }
 
 label {
+    color: blueviolet;
     margin-left: 100px;
 }
 
@@ -13,13 +14,13 @@ form {
     width: 40%;
     border-style: inset;
     border-radius: 10px;
-    border-color: red;
-    box-shadow: yellow;
+    border-color: blueviolet;
+    box-shadow: 2px 3px 4px yellow;
 }
 
 form:hover {
-    color: yellow ;
-    background-color: black;
+    color: black ;
+    background-color: paleturquoise;
     transform:scale(1.2);
 
 }
@@ -29,6 +30,5 @@ button {
 }
 
 span {
-    width: 60%;
-    margin-left: 100px;
+    width: 100%;
 }

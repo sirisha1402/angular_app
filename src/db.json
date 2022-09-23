@@ -112,5 +112,118 @@
       "price": "300",
       "img": "https://i5.walmartimages.com/asr/968d7217-4354-471c-91d6-901630751fee_1.2d1b9a74286d8d87cbaab1a4fc04a212.jpeg"
     }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "Siri",
+      "useremail": "siri@gmail.com",
+      "password": "Siri123",
+      "mobile": "9087654321"
+    },
+    {
+      "username": "Admin",
+      "useremail": "admin@gmail.com",
+      "password": "admin@123",
+      "mobile": "9898989898",
+      "id": 3
+    },
+    {
+      "username": "sirisha",
+      "useremail": "siri@gmail.com",
+      "password": "siri1234",
+      "mobile": "",
+      "id": 4
+    },
+    {
+      "username": "sirisha",
+      "useremail": "siri@gmail.com",
+      "password": "siri1234",
+      "mobile": "",
+      "id": 5
+    },
+    {
+      "username": "sirisha",
+      "useremail": "siri@gmail.com",
+      "password": "siri1234",
+      "mobile": "",
+      "id": 6
+    },
+    {
+      "username": "siri",
+      "useremail": "siri@gmail.com",
+      "password": "siri1234",
+      "mobile": "",
+      "id": 7
+    },
+    {
+      "username": "sirisha",
+      "useremail": "siri@gmail.com",
+      "password": "siri1234",
+      "mobile": "",
+      "id": 8
+    },
+    {
+      "username": "sirisha",
+      "useremail": "siri@gmail.com",
+      "password": "siri1234",
+      "mobile": "",
+      "id": 9
+    },
+    {
+      "username": "sirisha",
+      "useremail": "siri@gmail.com",
+      "password": "siri1234",
+      "mobile": "",
+      "id": 10
+    },
+    {
+      "username": "sirisha",
+      "useremail": "siri@gmail.com",
+      "password": "siri1234",
+      "mobile": "",
+      "id": 11
+    },
+    {
+      "username": "sirisha",
+      "useremail": "siri@gmail.com",
+      "password": "siri1234",
+      "mobile": "",
+      "id": 12
+    }
+  ],
+  "cart": [
+    {
+      "pname": "Product:Shoes",
+      "pdescription": "Smashing Steel Toe Work Safety Shoes",
+      "price": 4600,
+      "img": "https://th.bing.com/th/id/OIP.LjLPmahZKkzKz6hH5zQW-gHaHa?w=189&h=189&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "quantity": 1,
+      "id": 1
+    },
+    {
+      "pname": "Product:Lipstick",
+      "pdescription": "Glossy Lips",
+      "price": 25000,
+      "img": "https://cdn11.bigcommerce.com/s-ilgxsy4t82/images/stencil/960w/products/67891/183637/51Nqh5b32FL__03210.1663066490.jpg?c=1",
+      "quantity": 1,
+      "id": 2
+    },
+    {
+      "pname": "Product:Pen holder",
+      "pdescription": "Desktop pen holders",
+      "price": 450,
+      "img": "https://th.bing.com/th/id/OIP.Nap1lMeRaPN6djNJWEbKQQD6D6?pid=ImgDet&rs=1",
+      "quantity": 1,
+      "id": 3
+    },
+    {
+      "pname": "Product:NoteBook",
+      "pdescription": "Diary notebook",
+      "price": 35000,
+      "img": "https://64.media.tumblr.com/40a1f6e0de4eab49fcfee83589edbfab/tumblr_ml9ir9ZMde1s6plago1_400.jpg",
+      "quantity": 1,
+      "id": 4
+    }
   ]
 }

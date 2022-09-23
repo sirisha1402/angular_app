@@ -3,3 +3,12 @@ marquee{
     color:black;
     font-size: 28px;
 }
+img{
+    height:150px;
+    width:100px;
+    margin-left:20px;
+    margin-top:10px;
+    margin-bottom:10px;
+    border-radius:10px;
+}
+

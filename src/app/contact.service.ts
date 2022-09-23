@@ -8,17 +8,13 @@ export class ContactService {
 
   constructor() { }
   con : Contact[] =[
-    {
-      pname: "Sam",
-      pemailid:"sam1234@gmail.com",
-      pnumber: 9087654321,
-      paddress: "BITM Ballari"
-    },
+    
     {
     pname: "Siri",
     pemailid:"siri4321@gmail.com",
       pnumber: 9879657456,
-      paddress: "BB street Ballari"
+      paddress: "BB street Ballari",
+      img:"https://cdn2.iconfinder.com/data/icons/rcons-users-color/32/support_woman-512.png"
     }
   ];
   public getContactDetails(): any{

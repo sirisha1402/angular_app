@@ -1,4 +1,4 @@
-import { Component, OnInit,Output,EventEmitter} from '@angular/core';
+import { Component, OnInit,Input,Output,EventEmitter} from '@angular/core';
 
 @Component({
   selector: 'app-counterchild',
@@ -7,13 +7,14 @@ import { Component, OnInit,Output,EventEmitter} from '@angular/core';
 })
 export class CounterchildComponent implements OnInit {
 //counter property
-counterValue=1;
+@Input() counterValue: number =1;
 countLessThenOne=true;
 
 @Output() countEmmitter =new EventEmitter(); 
-
-PostValue(){
+@Output() quantityEmitter = new EventEmitter();
+PostData(){
 this.countEmmitter.emit(this.counterValue);
+this.quantityEmitter.emit(this.counterValue);
 }
 //increment and decrement 
 //quantity
@@ -26,20 +27,17 @@ decrement(){
     this.countLessThenOne=true;
     this.counterValue--;
   }
-  this.PostValue();
+  this.PostData();
 }
 
-increment(){
-  if(this.counterValue==10){
-    this.PostValue();
-  }
-  else{
-    this.counterValue++;
+increment()
+{
+  this.counterValue++;
   this.countLessThenOne=true;
-  this.PostValue();
+  this.PostData();
   }
   
-}
+
   constructor() { }
 
   ngOnInit(): void {

@@ -19,6 +19,11 @@ import { HandbagdealsComponent } from './hand-bags/handbagdeals/handbagdeals.com
 import { ContactComponent } from './contact/contact.component';
 import { RegisterComponent } from './register/register.component';
 import { ProductdetailsComponent } from './productdetails/productdetails.component';
+import { SalesComponent } from './sales/sales.component';
+import { CartItemsComponent } from './cart-items/cart-items.component';
+import { LoginComponent } from './login/login.component';
+import { DealsComponent } from './deals/deals.component';
+import { AmazondealsComponent } from './deals/amazondeals/amazondeals.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +42,12 @@ import { ProductdetailsComponent } from './productdetails/productdetails.compone
     HandbagdealsComponent,
     ContactComponent,
     RegisterComponent,
-    ProductdetailsComponent
+    ProductdetailsComponent,
+    SalesComponent,
+    CartItemsComponent,
+    LoginComponent,
+    DealsComponent,
+    AmazondealsComponent
     
   ],
   imports: [

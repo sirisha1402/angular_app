@@ -3,4 +3,5 @@ export class Contact {
     pemailid:string|undefined;
     paddress:string|undefined;
     pnumber:number|undefined;
+    img:string|undefined;
 }
