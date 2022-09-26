@@ -1,24 +1,10 @@
 {
   "posts": [
     {
-      "id": 1,
-      "pname": "Pumpa",
-      "pdescription": "Smashing Steel Toe Work Safety Shoes",
-      "price": "5000",
-      "img": "https://th.bing.com/th/id/OIP.LjLPmahZKkzKz6hH5zQW-gHaHa?w=189&h=189&c=7&r=0&o=5&dpr=1.5&pid=1.7"
-    },
-    {
-      "id": 2,
-      "pname": "Nike",
-      "pdescription": "Free Run",
-      "price": 5000,
-      "img": "https://th.bing.com/th/id/OIP.CbPrrh5G7coTY0rznZ5JqgHaHa?pid=ImgDet&rs=1"
-    },
-    {
       "id": 3,
       "pname": "adidas",
       "pdescription": "Sport shoes",
-      "price": 3000,
+      "price": "300",
       "img": "https://th.bing.com/th/id/OIP.ZffAEKyyIh54xe3JxZkGBQHaFj?pid=ImgDet&rs=1"
     },
     {
@@ -224,6 +210,14 @@
       "img": "https://64.media.tumblr.com/40a1f6e0de4eab49fcfee83589edbfab/tumblr_ml9ir9ZMde1s6plago1_400.jpg",
       "quantity": 1,
       "id": 4
+    },
+    {
+      "pname": "Pumpa",
+      "pdescription": "Smashing Steel Toe Work Safety Shoes",
+      "price": 4600,
+      "img": "https://th.bing.com/th/id/OIP.LjLPmahZKkzKz6hH5zQW-gHaHa?w=189&h=189&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "quantity": 1,
+      "id": 5
     }
   ]
 }
